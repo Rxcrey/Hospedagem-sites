@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: #f7dfc3;
+
+}
+
+.navbar-brand {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body {
+    background-color: #f7dfc3;
+}
+
+.carousel-inner img {
+    display: flex;
+}
+
+.carousel-inner {
+
+    background-color: #f9e9d6;
+
+}
+
+h5 {
+    color: rgb(82, 48, 26);
+    font-family: fantasy;
+    height: 10px;
+}
+
+.card-produto {
+    width: 320px;
+    border: none;
+    border-radius: 20px;
+    overflow: hidden;
+    background: #c4b7a8;
+    color: rgb(82, 48, 26);
+    box-shadow: 0 10px 30px #f9e9d6;
+}
+
+.card-produto img {
+    height: 250px;
+    object-fit: cover;
+}
+
+.preco {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #000000;
+}
+
+.btn-carrinho {
+    background: rgb(82, 48, 26);
+    border: none;
+    color: black;
+    font-weight: bold;
+}
+
+.btn-carrinho:hover {
+    background: white;
+}
+
+footer{
+    background-color: rgb(82, 48, 26);
+    height: 50px;
+    display: flex;
+    color: white;
+    flex-direction: row;
+    align-items: end;
+}
+#header-login{
+    box-shadow: 0 10px 30px #f9e9d6;
+}  

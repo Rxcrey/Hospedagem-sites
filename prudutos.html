@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Holy Bars | Holy and Bars</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img height="60" src="./imagens/logo Sfundo.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./sobre.html">Sobre</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./imagens/cereal de avela.svg" class="d-block w-50 mx-auto" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Cereal Cacau e Avelã🌰</h5>
+                    </div>
+                </div>
+                <div class="carousel-item active">
+                    <img src="./imagens/cereal de chocolate.svg" class="d-block w-50 mx-auto" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Cereal Chocolate Intenso🍫</h5>
+                    </div>
+                </div>
+                <div class="carousel-item active">
+                    <img src="./imagens/cereal chocolate e coco.svg" class="d-block w-50 mx-auto" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Cereal Chocolate com coco🥥</h5>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">proximo</span>
+            </button>
+        </section>
+    </main>
+    <section class="row d-flex gap-5 justify-content-center w-100">
+        <div class="col-12 col-md-6 col-lg-4 card card-produto">
+            <!-- imagem -->
+            <img src="./imagens/cereal chocolate e coco.svg" class="card-img-top" alt="Produto">
+            <div class="card-body">
+                <h3 class="card-title">Holy Bars</h3>
+                <p class="card-text">
+                    Barra de cereal sabor chocolate com coco.
+                </p>
+                <p class="preco">R$ 19,90</p>
+                <div class="d-flex gap-2">
+                    <!-- botao do carrinho -->
+                    <button class="btn btn-outline-light w-50" data-bs-toggle="modal" data-bs-target="#modalProduto1">
+                        Saiba mais
+                    </button>
+                    <button class="btn btn-carrinho w-50">
+                        Adicionar
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 card card-produto">
+            <!-- imagem -->
+            <img src="./imagens/cereal de chocolate.svg" class="card-img-top" alt="Produto">
+            <div class="card-body">
+                <h3 class="card-title">Holy Bars</h3>
+                <p class="card-text">
+                    Barra de cereal sabor chocolate amargo
+                    diferenciado.
+
+                </p>
+                <p class="preco">R$ 15,99</p>
+                <div class="d-flex gap-2">
+                    <!-- botao do carrinho -->
+                    <button class="btn btn-outline-light w-50" data-bs-toggle="modal" data-bs-target="#modalProduto2">
+                        Saiba mais
+                    </button>
+                    <button class="btn btn-carrinho w-50">
+                        Adicionar
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 card card-produto">
+            <!-- imagem -->
+            <img src="./imagens/cereal de avela.svg" class="card-img-top" alt="Produto">
+            <div class="card-body">
+                <h3 class="card-title">Holy Bars</h3>
+                <p class="card-text">
+                    Barra de cereal sabor chocolate com avelã.
+                </p>
+                <p class="preco">R$ 23,99</p>
+                <div class="d-flex gap-2">
+                    <!-- botao do carrinho -->
+                    <button class="btn btn-outline-light w-50" data-bs-toggle="modal" data-bs-target="#modalProduto3">
+                        Saiba mais
+                    </button>
+                    <button class="btn btn-carrinho w-50">
+                        Adicionar
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- modal -->
+    <div class="modal fade" id="modalProduto1" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title">
+                        Holy Bars
+                    </h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal">
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="./imagens/cereal chocolate e coco.svg" class="img-fluid rounded mb-3" alt="Produto">
+                    <p>
+                        Barra de cereal premium sabor chocolate com coco.
+                        Rica em proteínas, fibras e energia saudável.
+                    </p>
+                    <ul>
+                        <li>Ingredientes naturais</li>
+                        <li>Fonte de fibras</li>
+                        <li>Rica em proteínas</li>
+                        <li>Sem corantes artificiais</li>
+                    </ul>
+                </div>
+
+                <div class="modal-footer border-0">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                        Fechar
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- modal -->
+    <div class="modal fade" id="modalProduto1" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title">
+                        Holy Bars
+                    </h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal">
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="./imagens/cereal chocolate e coco.svg" class="img-fluid rounded mb-3" alt="Produto">
+                    <p>
+                        Barra de cereal premium sabor chocolate com coco.
+                        Rica em proteínas, fibras e energia saudável.
+                    </p>
+                    <ul>
+                        <li>Ingredientes naturais</li>
+                        <li>Fonte de fibras</li>
+                        <li>Rica em proteínas</li>
+                        <li>Sem corantes artificiais</li>
+                    </ul>
+                </div>
+
+                <div class="modal-footer border-0">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                        Fechar
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- modal -->
+    <div class="modal fade" id="modalProduto1" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title">
+                        Holy Bars
+                    </h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal">
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="./imagens/cereal chocolate e coco.svg" class="img-fluid rounded mb-3" alt="Produto">
+                    <p>
+                        Barra de cereal premium sabor chocolate com coco.
+                        Rica em proteínas, fibras e energia saudável.
+                    </p>
+                    <ul>
+                        <li>Ingredientes naturais</li>
+                        <li>Fonte de fibras</li>
+                        <li>Rica em proteínas</li>
+                        <li>Sem corantes artificiais</li>
+                    </ul>
+                </div>
+
+                <div class="modal-footer border-0">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                        Fechar
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="modalProduto2" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title">
+                        Holy Bars
+                    </h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal">
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="./imagens/cereal de chocolate.svg" class="img-fluid rounded mb-3" alt="Produto">
+                    <p>
+                        Barra de cereal premium sabor chocolate amargo.
+                        Rica em proteínas, fibras e energia saudável.
+                    </p>
+                    <ul>
+                        <li>Ingredientes naturais</li>
+                        <li>Fonte de fibras</li>
+                        <li>Rica em proteínas</li>
+                        <li>Sem corantes artificiais</li>
+                    </ul>
+                </div>
+
+                <div class="modal-footer border-0">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                        Fechar
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="modalProduto3" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title">
+                        Holy Bars
+                    </h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal">
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="./imagens/cereal de avela.svg" class="img-fluid rounded mb-3" alt="Produto">
+                    <p>
+                        Barra de cereal premium sabor chocolate com coco.
+                        Rica em proteínas, fibras e energia saudável.
+                    </p>
+                    <ul>
+                        <li>Ingredientes naturais</li>
+                        <li>Fonte de fibras</li>
+                        <li>Rica em proteínas</li>
+                        <li>Sem corantes artificiais</li>
+                    </ul>
+                </div>
+
+                <div class="modal-footer border-0">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                        Fechar
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <footer>
+        <p>&copy; Desenvolvido por Ricardo Neves da Silva</p>
+    </footer>
+</body>
+
+
+</html>
